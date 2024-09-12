@@ -23,11 +23,15 @@ Ve vašem hračkářství prodáváte následující hračky:
 | Panenka            | 120  |
 
 Vytvořte program, který po zadání částky uživateli řekne, které hračky si může koupit. Ke každé hračce ve výstupu připište její cenu <br>
-*(výstup se vypíše na jeden řádek, každý předmět je oddělen čárkou, ceny jsou uzavřeny v závorkách, na jejich pořadí nezáleží)*
+*(ceny jsou uzavřeny v závorkách, na pořadí předmětů nezáleží)*
 > **Příklad vstupu a výstupu:** <br>
 >
 > Vstup: `135.10` <br>
-> Výstup: `Hot Wheels autíčko (75), Panenka (120)`
+> Výstup:
+> ```
+> Hot Wheels autíčko (75)
+> Panenka (120)
+> ```
 
 ### <span style="color:gold"> 4. Hračkářství s širokou nabídkou </span>
 Cílem je vytvořit podobný program jako ve cvičení 3. Nabízené hračky ale nejsou dopředu známé, jsou tedy obsaženy jakou součást vstupu. Vaše hračkářství má na skladě vždy 5 druhů hraček. Nikdy méně ani více. Ceny produktů se budou generovat náhodně. Cena se pohybuje v rozmezí 20 až 500 korun
