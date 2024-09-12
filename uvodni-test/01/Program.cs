@@ -1,6 +1,4 @@
 ﻿namespace _01;
-#pragma warning disable CS8600 // Ignoruje nepotrebne upozorneni u Console.ReadLine()
-                               // Tento radek kodu neni potreba umet
 
 class Program
 {
