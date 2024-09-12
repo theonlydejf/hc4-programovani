@@ -18,7 +18,7 @@ Program vydělí dvě uživatelem zadaná čísla a výsledek zobrazí.
 Ve vašem hračkářství prodáváte následující hračky:
 | Hračka             | Cena |
 |--------------------|------|
-| LEGO Stavebnice    | 200  |
+| LEGO stavebnice    | 200  |
 | Hot Wheels autíčko | 75   |
 | Panenka            | 120  |
 
