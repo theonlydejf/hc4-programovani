@@ -15,7 +15,7 @@ class Program
         // Projdi kazdou cenu
         for(int i = 0; i < ceny.Length; i++)
         {
-            if(penize > ceny[i]) // Pokud si hracku muzu dovolit
+            if(penize >= ceny[i]) // Pokud si hracku muzu dovolit
                 Console.WriteLine(hracky[i] + " (" + ceny[i] + ")"); // Vypis jeji jmeno a cenu
         }
     }
