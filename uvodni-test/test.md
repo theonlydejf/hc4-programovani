@@ -46,7 +46,9 @@ Je dán nákupní seznam obsahující 5 položek. Vaším úkolem je napsat prog
 >> Vstup: `Chipsy`, `Mražená pizza`, `Kedluben`, `Banány`, `Sušenka`, `Nůžky` <br>
 >> Výstup: `Položka se v seznamu nenachází`
 
-<span style="color:gold"> ### 5. Hračkářství s širokou nabídkou </span>
+<span style="color:gold">
+### 5. Hračkářství s širokou nabídkou
+</span>
 Cílem je vytvořit podobný program jako ve cvičení 3. Nabízené hračky a jejich ceny ale nejsou dopředu známé, jsou tedy obsaženy jako součást vstupu. Vaše hračkářství má na skladě vždy 5 druhů hraček. Nikdy méně ani více.
 
 > **Příklad vstupu a výstupu:** <br>
