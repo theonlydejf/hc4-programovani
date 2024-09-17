@@ -46,7 +46,7 @@ Je dán nákupní seznam obsahující 5 položek. Vaším úkolem je napsat prog
 >> Vstup: `Chipsy`, `Mražená pizza`, `Kedluben`, `Banány`, `Sušenka`, `Nůžky` <br>
 >> Výstup: `Položka se v seznamu nenachází`
 
-### <span style="color:gold"> 5. Hračkářství s širokou nabídkou </span>
+<span style="color:gold"> ### 5. Hračkářství s širokou nabídkou </span>
 Cílem je vytvořit podobný program jako ve cvičení 3. Nabízené hračky a jejich ceny ale nejsou dopředu známé, jsou tedy obsaženy jako součást vstupu. Vaše hračkářství má na skladě vždy 5 druhů hraček. Nikdy méně ani více.
 
 > **Příklad vstupu a výstupu:** <br>
@@ -58,7 +58,7 @@ Cílem je vytvořit podobný program jako ve cvičení 3. Nabízené hračky a j
 > Vojáček (50)
 > ```
 
-### <span style="color:gold"> 6. Nerozbitná kalkulačka </span>
+### 6. Nerozbitná kalkulačka </span>
 Vytvořte jednoduchou kalulačku kterou nebude možné rozbít. Program jako vstup dostane dvě čísla a jednu z možných matematických operací (+, -, *, /), kterou má na daná čísla aplikovat. Vaším úkolem je program vytvořit a ošetřit tak, aby ho nebylo možné jakýmkoliv způsobem rozbít (aby nevyvolal vyjímku, lidsky řečeno "nespadla"). Pokud program detekuje špatný vstup, uživatele o tom velmi přesně informuje (viz Příklady vstupů a výstupů)
 
 > **Příklad vstupů a výstupů:** <br>
