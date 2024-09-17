@@ -33,15 +33,30 @@ Vytvořte program, který po zadání částky uživateli řekne, které hračky
 > Panenka (120)
 > ```
 
-### <span style="color:gold"> 4. Hračkářství s širokou nabídkou </span>
-Cílem je vytvořit podobný program jako ve cvičení 3. Nabízené hračky ale nejsou dopředu známé, jsou tedy obsaženy jakou součást vstupu. Vaše hračkářství má na skladě vždy 5 druhů hraček. Nikdy méně ani více. Ceny produktů se budou generovat náhodně. Cena se pohybuje v rozmezí 20 až 500 korun
+### 4. Nákupní seznam
+Je dáno 5 položek z nákupního seznamu a číslo v rozmezí 1 až 5. Vaším úkolem je vytvořit program, který vypíše položku ze seznamu na dané pozici.
+> **Příklad vstupu a výstupu:** <br>
+>
+>> Vstup: `Jablko`, `Cibule`, `Rohlíky`, `Salám`, `Máslo`, `1` <br>
+>> Výstup: `Jablko`
+>> Vstup: `Chipsy`, `Mražená pizza`, `Kedluben`, `Banány`, `Sušenka`, `3` <br>
+>> Výstup: `Kedluben`
+>> Vstup: `Chipsy`, `Mražená pizza`, `Kedluben`, `Banány`, `Sušenka`, `10` <br>
+>> Výstup: `Neplatné číslo!`
+
+### <span style="color:gold"> 5. Hračkářství s širokou nabídkou </span>
+Cílem je vytvořit podobný program jako ve cvičení 3. Nabízené hračky a jejich ceny ale nejsou dopředu známé, jsou tedy obsaženy jako součást vstupu. Vaše hračkářství má na skladě vždy 5 druhů hraček. Nikdy méně ani více.
 
 > **Příklad vstupu a výstupu:** <br>
 >
-> Vstup: `Míč`, `Dřevěná kachna`, `Robot`, `Vojáček`, `Hlavolam`, `50` <br>
-> Výstup: `Míč (23), Hlavolam (50)`
+> Vstup: `Míč`, `23`, `Dřevěná kachna`, `60`, `Robot`, `200`, `Vojáček`, `50`, `Hlavolam`, `80`, `50` <br>
+> Výstup:
+> ```
+> Míč (23)
+> Vojáček (50)
+> ```
 
-### <span style="color:gold"> 5. Nerozbitná kalkulačka </span>
+### <span style="color:gold"> 6. Nerozbitná kalkulačka </span>
 Vytvořte jednoduchou kalulačku kterou nebude možné rozbít. Program jako vstup dostane dvě čísla a jednu z možných matematických operací (+, -, *, /), kterou má na daná čísla aplikovat. Vaším úkolem je program vytvořit a ošetřit tak, aby ho nebylo možné jakýmkoliv způsobem rozbít (aby nevyvolal vyjímku, lidsky řečeno "nespadla"). Pokud program detekuje špatný vstup, uživatele o tom velmi přesně informuje (viz Příklady vstupů a výstupů)
 
 > **Příklad vstupů a výstupů:** <br>
@@ -65,7 +80,7 @@ Vytvořte jednoduchou kalulačku kterou nebude možné rozbít. Program jako vst
 > `Secti (cislo1, cislo2) -> Číslo` <br><br>
 > Metoda výše se má jmenovat `Secti`, má dva parametry s názvy `cislo1` a `cislo2` a bude vracet číselnou hodnotu. V definici rozhraní není stanoven datový typ, to je naschvál. Toto rozhodnutí je ponecháno na vás.
 
-### 6. Je to palindrom?
+### 7. Je to palindrom?
 Palindrom je číslo, které je při přečtení z obou stran stejné. Například čísla 1221, 691196, 2, 33 jsou palindromy. Vytvořte ***Metodu*** (tedy ne celý program) `JePalyndrom`, která má jeden vstupní parametr. Metoda pak rozhodne jestli parametr obsahuje palindrom a pomocí návratové hodnoty o tom program informuje.
 
 #### Příklad volání metody v jazyce C#:
@@ -81,7 +96,7 @@ else
 Je to palindrom
 ```
 
-### <span style="color:gold"> 7. Počítání slov </span>
+### <span style="color:gold"> 8. Počítání slov </span>
 Vytvořte metodu *SpoctiSlova* s následujícím rozhraním: <br>
 `SpoctiSlova (text) -> Číslo` (Viz [vysvětlivka](#vysvětlivka-pro-definici-rozhraní-metod)) <br>
 Tato metoda spočte kolik slov se nachází v daném textu. Slovo je definované jako posloupnost znaků (ne mezer) oddělených jednou a více mezerami nebo jedním a více odřádkováním. Například naśledující text obsahuje právě 12 slov.
@@ -103,7 +118,7 @@ Console.WriteLine(SpoctiSlova(text));
 9
 ```
 
-### 7.2. Počítání slov pro hnidopichy
+### 8.2. Počítání slov pro hnidopichy
 Vytvořte metodu *SpoctiSlova* s následujícím rozhraním: <br>
 `SpoctiSlova (text) -> Číslo` (Viz [vysvětlivka](#vysvětlivka-pro-definici-rozhraní-metod)) <br>
 Tato metoda spočte kolik slov se nachází v daném textu. Slova jsou definovaná následovně:
@@ -123,7 +138,7 @@ Console.WriteLine(SpoctiSlova(text2));
 5
 ```
 
-### 8. Počítačka palyndromů
+### 9. Počítačka palyndromů
 Vytvořte ***Metodu*** SpoctiPalindromy s následujícím rozhraním: <br>
 `SpoctiPalindromy (text) -> Číslo` (Viz [vysvětlivka](#vysvětlivka-pro-definici-rozhraní-metod)) <br>
 Tato metoda spočte kolik palindromů se nachází v zadaném textu a výsledek vrátí. <br>
