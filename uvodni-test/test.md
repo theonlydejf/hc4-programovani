@@ -34,17 +34,17 @@ Vytvořte program, který po zadání částky uživateli řekne, které hračky
 > ```
 
 ### 4. Nákupní seznam
-Je dáno 5 položek z nákupního seznamu a číslo v rozmezí 1 až 5. Vaším úkolem je vytvořit program, který vypíše položku ze seznamu na dané pozici.
+Je dán nákupní seznam obsahující 5 položek. Vaším úkolem je napsat program, který ověří, zda se konkrétní položka v seznamu nachází, a pokud ano, uvede její pozici. Položky seznamu a hledaná položka jsou zadávány jako vstup. Nejprve jsou zadány položky seznamu, poté (tedy jako poslední) následuje položka, kterou chcete vyhledat.
 > **Příklad vstupu a výstupu:** <br>
 >
->> Vstup: `Jablko`, `Cibule`, `Rohlíky`, `Salám`, `Máslo`, `1` <br>
->> Výstup: `Jablko`
+>> Vstup: `Jablko`, `Cibule`, `Rohlíky`, `Salám`, `Máslo`, `Jablko` <br>
+>> Výstup: `1`
 >
->> Vstup: `Chipsy`, `Mražená pizza`, `Kedluben`, `Banány`, `Sušenka`, `3` <br>
->> Výstup: `Kedluben`
+>> Vstup: `Chipsy`, `Mražená pizza`, `Kedluben`, `Banány`, `Sušenka`, `Kedluben` <br>
+>> Výstup: `3`
 >
->> Vstup: `Chipsy`, `Mražená pizza`, `Kedluben`, `Banány`, `Sušenka`, `10` <br>
->> Výstup: `Neplatné číslo!`
+>> Vstup: `Chipsy`, `Mražená pizza`, `Kedluben`, `Banány`, `Sušenka`, `Nůžky` <br>
+>> Výstup: `Položka se v seznamu nenachází`
 
 ### <span style="color:gold"> 5. Hračkářství s širokou nabídkou </span>
 Cílem je vytvořit podobný program jako ve cvičení 3. Nabízené hračky a jejich ceny ale nejsou dopředu známé, jsou tedy obsaženy jako součást vstupu. Vaše hračkářství má na skladě vždy 5 druhů hraček. Nikdy méně ani více.
