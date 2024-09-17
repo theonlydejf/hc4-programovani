@@ -101,7 +101,7 @@ Je to palindrom
 ### <span style="color:gold"> 8. Počítání slov </span>
 Vytvořte metodu *SpoctiSlova* s následujícím rozhraním: <br>
 `SpoctiSlova (text) -> Číslo` (Viz [vysvětlivka](#vysvětlivka-pro-definici-rozhraní-metod)) <br>
-Tato metoda spočte kolik slov se nachází v daném textu. Slovo je definované jako posloupnost znaků (ne mezer) oddělených jednou a více mezerami nebo jedním a více odřádkováním. Například naśledující text obsahuje právě 12 slov.
+Tato metoda spočte kolik slov se nachází v daném textu. Slovo je definované jako posloupnost znaků (ne mezer) oddělených jednou a více mezerami nebo jedním a více odřádkováním. Například následující text obsahuje právě 12 slov.
 ```
 Ahoj Davide,
 chci ti      rict ze mam rad programovani.
