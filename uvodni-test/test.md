@@ -140,7 +140,7 @@ Console.WriteLine(SpoctiSlova(text2));
 5
 ```
 
-### 9. Počítačka palyndromů
+### 9. Počítačka palindromů
 Vytvořte ***Metodu*** SpoctiPalindromy s následujícím rozhraním: <br>
 `SpoctiPalindromy (text) -> Číslo` (Viz [vysvětlivka](#vysvětlivka-pro-definici-rozhraní-metod)) <br>
 Tato metoda spočte kolik palindromů se nachází v zadaném textu a výsledek vrátí. <br>
