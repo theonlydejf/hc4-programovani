@@ -39,8 +39,10 @@ Je dáno 5 položek z nákupního seznamu a číslo v rozmezí 1 až 5. Vaším 
 >
 >> Vstup: `Jablko`, `Cibule`, `Rohlíky`, `Salám`, `Máslo`, `1` <br>
 >> Výstup: `Jablko`
+>
 >> Vstup: `Chipsy`, `Mražená pizza`, `Kedluben`, `Banány`, `Sušenka`, `3` <br>
 >> Výstup: `Kedluben`
+>
 >> Vstup: `Chipsy`, `Mražená pizza`, `Kedluben`, `Banány`, `Sušenka`, `10` <br>
 >> Výstup: `Neplatné číslo!`
 
