@@ -48,7 +48,7 @@ Je dán nákupní seznam obsahující 5 položek. Vaším úkolem je napsat prog
 
 ### 5. Hračkářství s širokou nabídkou
 
-<span style="background-color: #FFE87C; color: #CA762B; font-family: monospace; padding: 2px 6px; border-radius: 4px;">! NEPŘESKOČITELNÉ !</span>
+<div style="background-color: #FFE87C; color: #CA762B; font-family: monospace; padding: 2px 6px; border-radius: 4px;">! NEPŘESKOČITELNÉ !</div>
 
 Cílem je vytvořit podobný program jako ve cvičení 3. Nabízené hračky a jejich ceny ale nejsou dopředu známé, jsou tedy obsaženy jako součást vstupu. Vaše hračkářství má na skladě vždy 5 druhů hraček. Nikdy méně ani více.
 
