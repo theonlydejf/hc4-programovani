@@ -47,7 +47,9 @@ Je dán nákupní seznam obsahující 5 položek. Vaším úkolem je napsat prog
 >> Výstup: `Položka se v seznamu nenachází`
 
 ### 5. Hračkářství s širokou nabídkou
-`! POVINNÉ 1`
+
+<span style="background-color: #FFE87C; color: #CA762B; font-family: monospace; padding: 2px 6px; border-radius: 4px;">! NEPŘESKOČITELNÉ !</span>
+
 Cílem je vytvořit podobný program jako ve cvičení 3. Nabízené hračky a jejich ceny ale nejsou dopředu známé, jsou tedy obsaženy jako součást vstupu. Vaše hračkářství má na skladě vždy 5 druhů hraček. Nikdy méně ani více.
 
 > **Příklad vstupu a výstupu:** <br>
@@ -59,7 +61,10 @@ Cílem je vytvořit podobný program jako ve cvičení 3. Nabízené hračky a j
 > Vojáček (50)
 > ```
 
-### <span style="color:gold"> 6. Nerozbitná kalkulačka </span>
+### 6. Nerozbitná kalkulačka
+
+<span style="background-color: #FFE87C; color: #CA762B; font-family: monospace; padding: 2px 6px; border-radius: 4px;">! NEPŘESKOČITELNÉ !</span>
+
 Vytvořte jednoduchou kalkulačku, kterou nebude možné rozbít. Program jako vstup dostane dvě čísla a jednu z možných matematických operací (+, -, *, /), kterou má na daná čísla aplikovat. Vaším úkolem je program vytvořit a ošetřit tak, aby ho nebylo možné jakýmkoliv způsobem rozbít (aby nevyvolal vyjímku, lidsky řečeno "nespadl"). Pokud program detekuje špatný vstup, uživatele o tom velmi. Chyby, které musí umět detekovat jsou následující:
 1. Nečíslená hodnota
 2. Neznámá operace
@@ -110,7 +115,10 @@ else
 Je to palindrom
 ```
 
-### <span style="color:gold"> 8. Počítání slov </span>
+### 8. Počítání slov
+
+<span style="background-color: #FFE87C; color: #CA762B; font-family: monospace; padding: 2px 6px; border-radius: 4px;">! NEPŘESKOČITELNÉ !</span>
+
 Vytvořte metodu *SpoctiSlova* s následujícím rozhraním: <br>
 `SpoctiSlova (text) -> Číslo` (Viz [vysvětlivka](#vysvětlivka-pro-definici-rozhraní-metod)) <br>
 Tato metoda spočte kolik slov se nachází v daném textu. Slovo je definované jako posloupnost znaků (ne mezer) oddělených jednou a více mezerami nebo jedním a více odřádkováním. Například následující text obsahuje právě 12 slov.
