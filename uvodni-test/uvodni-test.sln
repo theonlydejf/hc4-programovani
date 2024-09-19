@@ -19,7 +19,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06", "06\06.csproj", "{9CEE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07", "07\07.csproj", "{29CCA33C-74A8-4D12-A103-9054DF78C4E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08", "08\08.csproj", "{08312454-D246-48A6-9FFB-1DEBD6A28BB2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08-1", "08-1\08-1.csproj", "{08312454-D246-48A6-9FFB-1DEBD6A28BB2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

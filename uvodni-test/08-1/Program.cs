@@ -1,4 +1,4 @@
-﻿namespace _08;
+﻿namespace _08_1;
 
 class Program
 {
