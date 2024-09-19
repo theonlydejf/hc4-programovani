@@ -48,7 +48,8 @@ Je dán nákupní seznam obsahující 5 položek. Vaším úkolem je napsat prog
 
 ### 5. Hračkářství s širokou nabídkou
 
-<div style="background-color: #FFE87C; color: #CA762B; font-family: monospace; padding: 2px 6px; border-radius: 4px;">! NEPŘESKOČITELNÉ !</div>
+> [!WARNING]
+> ! NEPŘESKOČITELNÉ !
 
 Cílem je vytvořit podobný program jako ve cvičení 3. Nabízené hračky a jejich ceny ale nejsou dopředu známé, jsou tedy obsaženy jako součást vstupu. Vaše hračkářství má na skladě vždy 5 druhů hraček. Nikdy méně ani více.
 
@@ -63,7 +64,8 @@ Cílem je vytvořit podobný program jako ve cvičení 3. Nabízené hračky a j
 
 ### 6. Nerozbitná kalkulačka
 
-<span style="background-color: #FFE87C; color: #CA762B; font-family: monospace; padding: 2px 6px; border-radius: 4px;">! NEPŘESKOČITELNÉ !</span>
+> [!WARNING]
+> ! NEPŘESKOČITELNÉ !
 
 Vytvořte jednoduchou kalkulačku, kterou nebude možné rozbít. Program jako vstup dostane dvě čísla a jednu z možných matematických operací (+, -, *, /), kterou má na daná čísla aplikovat. Vaším úkolem je program vytvořit a ošetřit tak, aby ho nebylo možné jakýmkoliv způsobem rozbít (aby nevyvolal vyjímku, lidsky řečeno "nespadl"). Pokud program detekuje špatný vstup, uživatele o tom velmi. Chyby, které musí umět detekovat jsou následující:
 1. Nečíslená hodnota
@@ -117,7 +119,8 @@ Je to palindrom
 
 ### 8. Počítání slov
 
-<span style="background-color: #FFE87C; color: #CA762B; font-family: monospace; padding: 2px 6px; border-radius: 4px;">! NEPŘESKOČITELNÉ !</span>
+> [!WARNING]
+> ! NEPŘESKOČITELNÉ !
 
 Vytvořte metodu *SpoctiSlova* s následujícím rozhraním: <br>
 `SpoctiSlova (text) -> Číslo` (Viz [vysvětlivka](#vysvětlivka-pro-definici-rozhraní-metod)) <br>
