@@ -59,7 +59,10 @@ Cílem je vytvořit podobný program jako ve cvičení 3. Nabízené hračky a j
 > ```
 
 ### <span style="color:gold"> 6. Nerozbitná kalkulačka </span>
-Vytvořte jednoduchou kalulačku kterou nebude možné rozbít. Program jako vstup dostane dvě čísla a jednu z možných matematických operací (+, -, *, /), kterou má na daná čísla aplikovat. Vaším úkolem je program vytvořit a ošetřit tak, aby ho nebylo možné jakýmkoliv způsobem rozbít (aby nevyvolal vyjímku, lidsky řečeno "nespadla"). Pokud program detekuje špatný vstup, uživatele o tom velmi přesně informuje (viz Příklady vstupů a výstupů)
+Vytvořte jednoduchou kalkulačku, kterou nebude možné rozbít. Program jako vstup dostane dvě čísla a jednu z možných matematických operací (+, -, *, /), kterou má na daná čísla aplikovat. Vaším úkolem je program vytvořit a ošetřit tak, aby ho nebylo možné jakýmkoliv způsobem rozbít (aby nevyvolal vyjímku, lidsky řečeno "nespadl"). Pokud program detekuje špatný vstup, uživatele o tom velmi. Chyby, které musí umět detekovat jsou následující:
+1. Nečíslená hodnota
+2. Neznámá operace
+3. Neplatná operace
 
 > **Příklad vstupů a výstupů:** <br>
 >
@@ -75,12 +78,20 @@ Vytvořte jednoduchou kalulačku kterou nebude možné rozbít. Program jako vst
 >> Vstup: `42`, `10`, `@` <br>
 >> Výstup: `Neznámá operace`
 
-> ### Vysvětlivka pro definici rozhraní metod
-> `Název metody` (`parametr1`, `parametr2`) -> `Návratová hodnota`
->
-> **Příklad:**<br>
-> `Secti (cislo1, cislo2) -> Číslo` <br><br>
-> Metoda výše se má jmenovat `Secti`, má dva parametry s názvy `cislo1` a `cislo2` a bude vracet číselnou hodnotu. V definici rozhraní není stanoven datový typ, to je naschvál. Toto rozhodnutí je ponecháno na vás.
+---
+
+### Vysvětlivka pro definici rozhraní metod
+`Název metody` (`parametr1`, `parametr2`) -> `Návratová hodnota`
+<br>
+
+**Příklad:**<br>
+
+```
+Secti (cislo1, cislo2) -> Číslo
+```
+Metoda z příkladu se má jmenovat `Secti`, má dva parametry s názvy `cislo1` a `cislo2` a bude vracet číselnou hodnotu. V definici rozhraní není stanoven datový typ, to je naschvál. Toto rozhodnutí je ponecháno na vás.
+
+---
 
 ### 7. Je to palindrom?
 Palindrom je číslo, které je při přečtení z obou stran stejné. Například čísla 1221, 691196, 2, 33 jsou palindromy. Vytvořte ***Metodu*** (tedy ne celý program) `JePalyndrom`, která má jeden vstupní parametr. Metoda pak rozhodne jestli parametr obsahuje palindrom a pomocí návratové hodnoty o tom program informuje.
