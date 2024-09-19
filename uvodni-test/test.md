@@ -39,7 +39,7 @@ Vytvořte program, který po zadání částky uživateli řekne, které hračky
 ### 4. Nákupní seznam
 Je dán nákupní seznam obsahující 5 položek. Vaším úkolem je napsat program, který ověří, zda se konkrétní položka v seznamu nachází, a pokud ano, uvede její pozici. Položky seznamu a hledaná položka jsou zadávány jako vstup. Nejprve jsou zadány položky seznamu, poté (tedy jako poslední) následuje položka, kterou chcete vyhledat.
 > [!TIP]
-> **Příklad vstupů a výstupu:** <br>
+> **Příklad vstupů a výstupů:** <br>
 >
 > Vstup: `Jablko`, `Cibule`, `Rohlíky`, `Salám`, `Máslo`, `Jablko` <br>
 > Výstup: `1`
@@ -103,7 +103,7 @@ Vytvořte jednoduchou kalkulačku, kterou nebude možné rozbít. Program jako v
 > Metoda z příkladu se má jmenovat `Secti`, má dva parametry s názvy `cislo1` a `cislo2` a bude vracet číselnou hodnotu. V definici rozhraní není stanoven datový typ, to je naschvál. Toto rozhodnutí je ponecháno na vás.
 
 ### 7. Je to palindrom?
-Palindrom je číslo, které je při přečtení z obou stran stejné. Například čísla 1221, 691196, 2, 33 jsou palindromy. Vytvořte ***Metodu*** (tedy ne celý program) `JePalyndrom`, která má jeden vstupní parametr. Metoda pak rozhodne jestli parametr obsahuje palindrom a pomocí návratové hodnoty o tom program informuje.
+Palindrom je číslo, které je při přečtení z obou stran stejné. Například čísla 1221, 691196, 2, 33 jsou palindromy. Vytvořte ***Metodu*** (tedy ne celý program) `JePalindrom`, která má jeden vstupní parametr. Metoda pak rozhodne jestli parametr obsahuje palindrom a pomocí návratové hodnoty o tom program informuje.
 
 > [!TIP]
 > #### Příklad volání metody v jazyce C#:
