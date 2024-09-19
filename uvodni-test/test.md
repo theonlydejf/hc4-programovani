@@ -2,6 +2,7 @@
 
 ### 1. Sčítačka
 Program sečte dvě uživatelem zadaná čísla a výsledek zobrazí.
+> [!TIP]
 > **Příklad vstupu a výstupu:** <br>
 >
 > Vstupy: `400`, `20` <br>
@@ -9,6 +10,7 @@ Program sečte dvě uživatelem zadaná čísla a výsledek zobrazí.
 
 ### 2. Dělička
 Program vydělí dvě uživatelem zadaná čísla a výsledek zobrazí.
+> [!TIP]
 > **Příklad vstupu a výstupu:** <br>
 >
 > Vstupy: `5`, `8` <br>
@@ -37,16 +39,16 @@ Vytvořte program, který po zadání částky uživateli řekne, které hračky
 ### 4. Nákupní seznam
 Je dán nákupní seznam obsahující 5 položek. Vaším úkolem je napsat program, který ověří, zda se konkrétní položka v seznamu nachází, a pokud ano, uvede její pozici. Položky seznamu a hledaná položka jsou zadávány jako vstup. Nejprve jsou zadány položky seznamu, poté (tedy jako poslední) následuje položka, kterou chcete vyhledat.
 > [!TIP]
-> **Příklad vstupu a výstupu:** <br>
+> **Příklad vstupů a výstupu:** <br>
 >
->> Vstup: `Jablko`, `Cibule`, `Rohlíky`, `Salám`, `Máslo`, `Jablko` <br>
->> Výstup: `1`
+> Vstup: `Jablko`, `Cibule`, `Rohlíky`, `Salám`, `Máslo`, `Jablko` <br>
+> Výstup: `1`
 >
->> Vstup: `Chipsy`, `Mražená pizza`, `Kedluben`, `Banány`, `Sušenka`, `Kedluben` <br>
->> Výstup: `3`
+> Vstup: `Chipsy`, `Mražená pizza`, `Kedluben`, `Banány`, `Sušenka`, `Kedluben` <br>
+> Výstup: `3`
 >
->> Vstup: `Chipsy`, `Mražená pizza`, `Kedluben`, `Banány`, `Sušenka`, `Nůžky` <br>
->> Výstup: `Položka se v seznamu nenachází`
+> Vstup: `Chipsy`, `Mražená pizza`, `Kedluben`, `Banány`, `Sušenka`, `Nůžky` <br>
+> Výstup: `Položka se v seznamu nenachází`
 
 ### 5. Hračkářství s širokou nabídkou
 
@@ -76,17 +78,17 @@ Vytvořte jednoduchou kalkulačku, kterou nebude možné rozbít. Program jako v
 > [!TIP]
 > **Příklad vstupů a výstupů:** <br>
 >
->> Vstup: `1`, `2`, `+` <br>
->> Výstup: `3`
+> Vstup: `1`, `2`, `+` <br>
+> Výstup: `3`
 >
->> Vstup: `1`, `-2.5`, `/` <br>
->> Výstup: `-0.4`
+> Vstup: `1`, `-2.5`, `/` <br>
+> Výstup: `-0.4`
 >
->> Vstup: `$$`, `68`, `/` <br>
->> Výstup: `První vstupní číslo není platná číselná hodnota`
+> Vstup: `$$`, `68`, `/` <br>
+> Výstup: `První vstupní číslo není platná číselná hodnota`
 >
->> Vstup: `42`, `10`, `@` <br>
->> Výstup: `Neznámá operace`
+> Vstup: `42`, `10`, `@` <br>
+> Výstup: `Neznámá operace`
 
 > [!NOTE]
 > ### Vysvětlivka pro definici rozhraní metod
@@ -168,11 +170,10 @@ Tato metoda spočte kolik slov se nachází v daném textu. Slova jsou definovan
 ### 9. Počítačka palindromů
 Vytvořte ***Metodu*** SpoctiPalindromy s následujícím rozhraním: <br>
 `SpoctiPalindromy (text) -> Číslo` (Viz [vysvětlivka](#vysvětlivka-pro-definici-rozhraní-metod)) <br>
-Tato metoda spočte kolik palindromů se nachází v zadaném textu a výsledek vrátí. <br>
-> #### Při hledání palindromů počítejte s následujícím:
-> - Platný palindrom obsahuje pouze čísla
-> - Každé slovo i číslo v textu je odděleno alespoň jednou mezerou (na konci a začátku textu se ale žádný znak nacházet nemusí)
-> - Pokud text obsahuje vícekrát ten stejný palindrom, každý z nich se počítá. Tedy text `121 121` obsahuje 2 palindromy.
+Tato metoda spočte kolik palindromů se nachází v zadaném textu a výsledek vrátí. Při hledání palindromů počítejte s následujícím:
+ - Platný palindrom obsahuje pouze čísla
+ - Každé slovo i číslo v textu je odděleno alespoň jednou mezerou (na konci a začátku textu se ale žádný znak nacházet nemusí)
+ - Pokud text obsahuje vícekrát ten stejný palindrom, každý z nich se počítá. Tedy text `121 121` obsahuje 2 palindromy.
 
 > [!TIP]
 > #### Příklad volání metody v jazyce C#:
