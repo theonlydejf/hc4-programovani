@@ -90,6 +90,8 @@ Vytvořte jednoduchou kalkulačku, kterou nebude možné rozbít. Program jako v
 > Vstup: `42`, `10`, `@` <br>
 > Výstup: `Neznámá operace`
 
+---
+
 > [!NOTE]
 > ### Vysvětlivka pro definici rozhraní metod
 > `Název metody` (`parametr1`, `parametr2`) -> `Návratová hodnota`
@@ -101,6 +103,8 @@ Vytvořte jednoduchou kalkulačku, kterou nebude možné rozbít. Program jako v
 > Secti (cislo1, cislo2) -> Číslo
 > ```
 > Metoda z příkladu se má jmenovat `Secti`, má dva parametry s názvy `cislo1` a `cislo2` a bude vracet číselnou hodnotu. V definici rozhraní není stanoven datový typ, to je naschvál. Toto rozhodnutí je ponecháno na vás.
+
+---
 
 ### 7. Je to palindrom?
 Palindrom je číslo, které je při přečtení z obou stran stejné. Například čísla 1221, 691196, 2, 33 jsou palindromy. Vytvořte ***Metodu*** (tedy ne celý program) `JePalindrom`, která má jeden vstupní parametr. Metoda pak rozhodne jestli parametr obsahuje palindrom a pomocí návratové hodnoty o tom program informuje.
