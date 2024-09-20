@@ -40,7 +40,10 @@ class Program
                 break;
 
             case "/":
-                Console.WriteLine(cislo1 / cislo2);
+                if(cislo2 == 0)
+                    Console.WriteLine("Neplatna operace");
+                else
+                    Console.WriteLine(cislo1 / cislo2);
                 break;
 
             default:
