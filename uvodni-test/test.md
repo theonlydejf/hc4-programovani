@@ -71,7 +71,7 @@ Cílem je vytvořit podobný program jako ve cvičení 3. Nabízené hračky a j
 > [!WARNING]
 > **NEPŘESKOČITELNÉ**
 
-Vytvořte jednoduchou kalkulačku, kterou nebude možné rozbít. Program jako vstup dostane dvě čísla a jednu z možných matematických operací (+, -, *, /), kterou má na daná čísla aplikovat. Vaším úkolem je program vytvořit a ošetřit tak, aby ho nebylo možné jakýmkoliv způsobem rozbít (aby nevyvolal vyjímku, lidsky řečeno "nespadl"). Pokud program detekuje špatný vstup, uživatele o tom velmi. Chyby, které musí umět detekovat jsou následující:
+Vytvořte jednoduchou kalkulačku, kterou nebude možné rozbít. Program jako vstup dostane dvě čísla a jednu z možných matematických operací (+, -, *, /), kterou má na daná čísla aplikovat. Vaším úkolem je program vytvořit a ošetřit tak, aby ho nebylo možné jakýmkoliv způsobem rozbít (aby například nevyvolal vyjímku, lidsky řečeno "nespadl"). Pokud program detekuje špatný vstup, uživatele o tom informuje. Chyby, které musí umět detekovat jsou následující:
 1. Nečíslená hodnota
 2. Neznámá operace
 3. Neplatná operace
