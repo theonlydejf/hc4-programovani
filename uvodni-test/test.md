@@ -102,7 +102,7 @@ Vytvořte jednoduchou kalkulačku, kterou nebude možné rozbít. Program jako v
 > ```
 > Secti (cislo1, cislo2) -> Číslo
 > ```
-> Metoda z příkladu se má jmenovat `Secti`, má dva parametry s názvy `cislo1` a `cislo2` a bude vracet číselnou hodnotu. V definici rozhraní není stanoven datový typ, to je naschvál. Toto rozhodnutí je ponecháno na vás.
+> Metoda z příkladu se má jmenovat `Secti`, má dva parametry s názvy `cislo1` a `cislo2` a bude vracet číselnou hodnotu. V definici rozhraní není stanoven datový typ, to je záměrně. Toto rozhodnutí je ponecháno na vás.
 
 ---
 
