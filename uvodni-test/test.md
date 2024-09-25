@@ -1,7 +1,7 @@
 # Programování pokročílí - Úvodní test
 
 ### 1. Sčítačka
-Program sečte dvě uživatelem zadaná čísla a výsledek zobrazí.
+Vytvořte program, který sečte dvě uživatelem zadaná čísla a výsledek zobrazí.
 > [!TIP]
 > **Příklad vstupu a výstupu:** <br>
 >
@@ -9,7 +9,7 @@ Program sečte dvě uživatelem zadaná čísla a výsledek zobrazí.
 > Výstup: `420`
 
 ### 2. Dělička
-Program vydělí dvě uživatelem zadaná čísla a výsledek zobrazí.
+Vytvořte program, který vydělí dvě uživatelem zadaná čísla a výsledek zobrazí.
 > [!TIP]
 > **Příklad vstupu a výstupu:** <br>
 >
