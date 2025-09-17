@@ -62,10 +62,10 @@ Zkuste nepoužívat vestavěné funkce.
 > **Očekávaný výstup:**  
 > `inavmargorP`
 
-## 7. Statistiky čísel (těžší úkol)
+## 7. Statistiky čísel
 Napište **metodu** s následujícím rozhraním:
 
-`VypocitejStatistiky (cisla) -> StatistikaCisel`
+`VypocitejStatistiky (pole csel) -> StatistikaCisel`
 
 - Parametr `cisla` bude kolekce (seznam) celých čísel.  
 - Návratovou hodnotou bude objekt třídy `StatistikaCisel`, který obsahuje tyto vlastnosti:
