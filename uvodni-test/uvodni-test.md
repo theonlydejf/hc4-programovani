@@ -65,7 +65,7 @@ Zkuste nepoužívat vestavěné funkce.
 ## 7. Statistiky čísel
 Napište **metodu** s následujícím rozhraním:
 
-`VypocitejStatistiky (pole csel) -> StatistikaCisel`
+`VypocitejStatistiky (pole cisel) -> StatistikaCisel`
 
 - Parametr `cisla` bude kolekce (seznam) celých čísel.  
 - Návratovou hodnotou bude objekt třídy `StatistikaCisel`, který obsahuje tyto vlastnosti:
