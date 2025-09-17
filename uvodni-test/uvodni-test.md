@@ -74,7 +74,7 @@ Napište **metodu** s následujícím rozhraním:
   - `Prumer` (průměr všech čísel, vypočtený s přesností na dvě desetinná místa)
 
 ### Třída StatistikaCisel
-Třída by měla mít čtyři veřejné atributy/properties: `Nejmensi`, `Nejvetsi`, `Prumer`.
+Třída by měla mít tri veřejné atributy/properties: `Nejmensi`, `Nejvetsi`, `Prumer`.
 
 > [!IMPORTANT]
 > **BONUS**
