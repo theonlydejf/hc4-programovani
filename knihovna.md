@@ -42,7 +42,7 @@ for (int i = 0; i < bookCount; i++)
     string title = input.GetString("book" + i + ".title");
     string author = input.GetString("book" + i + ".author");
     int pages = input.GetInt("book" + i + ".pages");
-    int year = input.GetInt("boo" + i + ".year");
+    int year = input.GetInt("book" + i + ".year");
 }
 ```
 
