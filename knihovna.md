@@ -41,13 +41,11 @@ List<Book> books = new List<Book>();
 
 for (int i = 0; i < bookCount; i++)
 {
-    books.Add(new Book
-    {
-        Title = input.GetString($"book{i}.title"),
-        Author = input.GetString($"book{i}.author"),
-        Pages = input.GetInt($"book{i}.pages"),
-        Year = input.GetInt($"book{i}.year")
-    });
+    string title = input.GetString("book" + i + ".title"),
+    string author = input.GetString("book" + i + ".author"),
+    int pages = input.GetInt("book" + i + ".pages"),
+    int year = input.GetInt("boo" + i + ".year")
+    books.Add(...);
 }
 ```
 
